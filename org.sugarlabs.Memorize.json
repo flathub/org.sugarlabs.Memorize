@@ -61,7 +61,7 @@
                 {
                     "type": "git",
                     "url": "https://github.com/sugarlabs/memorize-activity.git",
-                    "commit": "b50df82b66fa88e7d4334e822b8afd30fd96b619"
+                    "commit": "470f1f26bc1d8cbe9296580e44dc26870650b02f"
                 },
                 {
                     "type": "patch",
@@ -74,10 +74,6 @@
                 {
                     "type": "patch",
                     "path": "memorize-info.patch"
-                },
-                {
-                    "type": "patch",
-                    "path": "memorize-fix-sound-card.patch"
                 },
                 {
                     "type": "patch",
