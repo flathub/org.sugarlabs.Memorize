@@ -1,9 +1,9 @@
 {
     "app-id": "org.sugarlabs.Memorize",
     "base": "org.sugarlabs.BaseApp",
-    "base-version": "21.04",
+    "base-version": "22.06",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "40",
+    "runtime-version": "42",
     "sdk": "org.gnome.Sdk",
     "separate-locales": false,
     "command": "sugarapp",
@@ -64,7 +64,7 @@
                 {
                     "type": "git",
                     "url": "https://github.com/sugarlabs/memorize-activity.git",
-                    "commit": "470f1f26bc1d8cbe9296580e44dc26870650b02f"
+                    "commit": "fe395f9b8d55a012dbae91a5a98e03b46cbcec31"
                 },
                 {
                     "type": "patch",
