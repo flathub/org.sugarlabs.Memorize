@@ -73,7 +73,7 @@
                 {
                     "type": "git",
                     "url": "https://github.com/sugarlabs/memorize-activity.git",
-                    "commit": "fe395f9b8d55a012dbae91a5a98e03b46cbcec31"
+                    "commit": "40bf5fe33d7b63c0ee7751d7d7861e901d2bf8af"
                 },
                 {
                     "type": "patch",
