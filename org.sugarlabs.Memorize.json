@@ -39,8 +39,8 @@
                     "x-checker-data": {
                         "type": "git",
                         "tag-pattern": "^([\\d.]+)$"
-                   }
-               }
+                    }
+                }
             ],
             "post-install": [
                 "ln -s /app/lib/libespeak-ng.so /app/lib/libespeak.so",
@@ -55,11 +55,11 @@
                     "type": "git",
                     "url": "https://github.com/sugarlabs/gst-plugins-espeak.git",
                     "tag": "v0.6.0",
-                     "commit": "5cace1227427e25638f2f3447a79528e3c5b6db2",
-                     "x-checker-data": {
-                         "type": "git",
-                         "tag-pattern": "^v([\\d.]+)$"
-                     }
+                    "commit": "5cace1227427e25638f2f3447a79528e3c5b6db2",
+                    "x-checker-data": {
+                        "type": "git",
+                        "tag-pattern": "^v([\\d.]+)$"
+                    }
                 }
             ]
         },
@@ -73,7 +73,12 @@
                 {
                     "type": "git",
                     "url": "https://github.com/sugarlabs/memorize-activity.git",
-                    "commit": "40bf5fe33d7b63c0ee7751d7d7861e901d2bf8af"
+                    "tag": "v59",
+                    "commit": "fc8e478e6d4ceb75c3f2466c765e27b013eb3718",
+                    "x-checker-data": {
+                        "type": "git",
+                        "tag-pattern": "^v([\\d.]+)$"
+                    }
                 },
                 {
                     "type": "patch",
