@@ -2,7 +2,7 @@ diff --git a/activity/activity.info b/activity/activity.info
 index 3338ec5..ef0f628 100644
 --- a/activity/activity.info
 +++ b/activity/activity.info
-@@ -1,17 +1,19 @@
+@@ -1,17 +1,20 @@
  [Activity]
  name = Memorize
 -bundle_id = org.laptop.Memorize
@@ -28,3 +28,4 @@ index 3338ec5..ef0f628 100644
 +screenshots = https://raw.githubusercontent.com/sugarlabs/memorize-activity/master/screenshots/en/1.png https://raw.githubusercontent.com/sugarlabs/memorize-activity/master/screenshots/en/2.png https://raw.githubusercontent.com/sugarlabs/memorize-activity/master/screenshots/en/3.png
 +update_contact = tch@sugarlabs.org
 +developer_name = Sugar Labs Community
++developer_id = org.sugarlabs
