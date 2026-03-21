@@ -1,9 +1,9 @@
 {
     "app-id": "org.sugarlabs.Memorize",
     "base": "org.sugarlabs.BaseApp",
-    "base-version": "24.04",
+    "base-version": "26.04",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "46",
+    "runtime-version": "50",
     "sdk": "org.gnome.Sdk",
     "separate-locales": false,
     "command": "sugarapp",
@@ -20,12 +20,16 @@
         "/lib/pkgconfig",
         "/share/aclocal",
         "/share/info",
-        "/share/man"
+        "/share/man",
+        "*.la",
+        "*.a"
+    ],
+    "cleanup-commands": [
+        "rm -rf /app/share/gir-1.0"
     ],
     "modules": [
         {
             "name": "espeak-ng",
-            "cleanup": [ "*.la" ],
             "no-parallel-make": true,
             "build-options": {
                 "ldflags": "-Wl,--allow-multiple-definition"
